@@ -19,7 +19,7 @@ import org.springframework.security.web.SecurityFilterChain;
  * @created: 2024/9/28
  * @description:
  **/
-@Configuration
+//@Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 //    @Bean
