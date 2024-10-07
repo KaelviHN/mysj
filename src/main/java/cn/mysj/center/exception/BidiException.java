@@ -6,13 +6,12 @@ import org.springframework.http.HttpStatus;
 import java.io.Serial;
 
 /**
- * @author: anran.ma
+ * @author: KaelviHN
  * @created: 2024/10/5
  * @description: Customize Exception
  **/
 
 @Getter
-@Setter
 @AllArgsConstructor
 public class BidiException extends RuntimeException {
     @Serial
@@ -20,7 +19,7 @@ public class BidiException extends RuntimeException {
 
     private final HttpStatus status;
 
-    private Integer code;
+    private final String message;
 
 
 }
